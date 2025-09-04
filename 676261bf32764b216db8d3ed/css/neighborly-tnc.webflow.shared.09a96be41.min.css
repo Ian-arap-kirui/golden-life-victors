@@ -2378,11 +2378,8 @@ ul {
   right: 24px;
 }
 .footer-copyright-block {
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  display: flex;
+ 
+  display: none;
 }
 .footer-copyright-text {
   color: var(--neutral--100);
@@ -5640,9 +5637,7 @@ ul {
     padding-bottom: 60px;
   }
   .footer-copyright-block {
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
-    flex-flow: column-reverse;
+    display: none;
   }
   .top {
     flex: none;
@@ -6115,8 +6110,7 @@ ul {
     padding-bottom: 0;
   }
   .footer-copyright-block {
-    justify-content: space-between;
-    align-items: flex-start;
+ display: none;
   }
   .home-hero-image-1 {
     display: none;
